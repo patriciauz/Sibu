@@ -39,8 +39,6 @@ public class Persona implements Serializable {
     @Column(nullable = false, length = 7)
     private String telefono;
 
-
-
     public String getCelular() {
         return celular;
     }
